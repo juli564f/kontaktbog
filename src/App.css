@@ -1,16 +1,13 @@
 .bigFlex{
   display: flex;
+  width: 100%;
 }
 
-.contentbox{
-  width: 96%;
-  margin-top: 20px;
+.App{
+  background-color: #7E7A7A;
 }
 
 main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
-  background-color: blue;
 }
