@@ -5,7 +5,7 @@ import MyBtn from "./MyBtn";
 import { useState } from "react"
 
 
-export default function Sidebar({setIsOpen}) {
+export default function Sidebar({ setIsOpen }) {
 
     function handleOpenModal() {
         setIsOpen(true);

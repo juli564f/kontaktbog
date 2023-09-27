@@ -34,18 +34,17 @@ function App () {
                 <Header/>
             </header>
             <div className="bigFlex">
-            <Sidebar handleOpenModal={setIsOpen}/>
+            <Sidebar setIsOpen={setIsOpen}/>
             <main>
                 <Alphabet/>
                 <Liste/>
                 </main>
             </div>
-            <Opretkontakt handleClodeModal={setIsOpen}/>
+            <Opretkontakt setIsOpen={setIsOpen} isOpen={isOpen}/>
 
         </div>
 
     )
 }
-
 
 export default App;

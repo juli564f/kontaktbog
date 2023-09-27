@@ -1,0 +1,13 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal input{
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+}
