@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pipper2.0/static/css/main.a7f156d3.css",
-    "main.js": "/pipper2.0/static/js/main.6bdf3fe9.js",
-    "index.html": "/pipper2.0/index.html",
-    "main.a7f156d3.css.map": "/pipper2.0/static/css/main.a7f156d3.css.map",
-    "main.6bdf3fe9.js.map": "/pipper2.0/static/js/main.6bdf3fe9.js.map"
+    "main.css": "/kontaktbog/static/css/main.a7f156d3.css",
+    "main.js": "/kontaktbog/static/js/main.942288a2.js",
+    "index.html": "/kontaktbog/index.html",
+    "main.a7f156d3.css.map": "/kontaktbog/static/css/main.a7f156d3.css.map",
+    "main.942288a2.js.map": "/kontaktbog/static/js/main.942288a2.js.map"
   },
   "entrypoints": [
     "static/css/main.a7f156d3.css",
-    "static/js/main.6bdf3fe9.js"
+    "static/js/main.942288a2.js"
   ]
 }
