@@ -1,0 +1,21 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal input{
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.closeBtn{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 0;
+}
