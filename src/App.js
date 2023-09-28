@@ -12,6 +12,7 @@ import Header from "./components/Header";
 //importere useState funktion fra react bibliotek
 import { useState } from "react";
 
+//impoterer constructor
 import {Contact} from "./entities/contact"
 
 //Liste import
