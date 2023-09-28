@@ -14,7 +14,10 @@ export default function Opretkontakt({ isOpen, setIsOpen }) {
 
   return (
     <div>
-        <ReactModal isOpen={isOpen}>
+        <ReactModal isOpen={isOpen}
+        style={{
+          width: '150px'
+        }}>
         <MyBtn buttonText={"Luk"} onClick={handleCloseModal}/>
           <div className='modal'>
             <input type="text" placeholder='Fornavn' />
