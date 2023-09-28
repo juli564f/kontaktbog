@@ -12,6 +12,7 @@ import Header from "./components/Header"
 //import Alphabet linje
 import "./components/alphabet.css"
 import Alphabet from "./components/Alphabet";
+import { useState } from "react"
 
 //opret kontakt import
 //import "./components/Opretkontakt";
@@ -20,10 +21,12 @@ import Alphabet from "./components/Alphabet";
 //Liste import
 import Liste from "./components/Liste";
 import "./components/liste.css";
+import Opretkontakt from "./components/Opretkontakt";
 
 
 function App () {
 
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <div className="App">
@@ -31,17 +34,17 @@ function App () {
                 <Header/>
             </header>
             <div className="bigFlex">
-            <Sidebar/>
+            <Sidebar setIsOpen={setIsOpen}/>
             <main>
                 <Alphabet/>
                 <Liste/>
                 </main>
             </div>
+            <Opretkontakt setIsOpen={setIsOpen} isOpen={isOpen}/>
 
         </div>
 
     )
 }
-
 
 export default App;

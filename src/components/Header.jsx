@@ -1,4 +1,4 @@
-export default function Header(props){
+export default function Header(){
 
 return(
     <nav className="navbar">

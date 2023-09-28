@@ -1,5 +1,5 @@
 
-export default function Liste(props){
+export default function Liste(){
     return(
         <div className="contactContent">
 
