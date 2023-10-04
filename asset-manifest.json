@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kontaktbog/static/css/main.e05fc9cd.css",
-    "main.js": "/kontaktbog/static/js/main.434d6c24.js",
+    "main.js": "/kontaktbog/static/js/main.6fb4d933.js",
     "index.html": "/kontaktbog/index.html",
     "main.e05fc9cd.css.map": "/kontaktbog/static/css/main.e05fc9cd.css.map",
-    "main.434d6c24.js.map": "/kontaktbog/static/js/main.434d6c24.js.map"
+    "main.6fb4d933.js.map": "/kontaktbog/static/js/main.6fb4d933.js.map"
   },
   "entrypoints": [
     "static/css/main.e05fc9cd.css",
-    "static/js/main.434d6c24.js"
+    "static/js/main.6fb4d933.js"
   ]
 }
