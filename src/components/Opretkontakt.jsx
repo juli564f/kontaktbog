@@ -7,6 +7,7 @@ import "./opretkontakt.css"
 
 //Modtager props
 export default function Opretkontakt({ isOpen, setIsOpen, setContacts, contacts}) {
+
   const [ formValues, setFormValues ] = useState(new Contact('','','','','',''));
 
   function handleUpdateFormValues(event) {
@@ -18,34 +19,7 @@ export default function Opretkontakt({ isOpen, setIsOpen, setContacts, contacts}
   }
 
 // //Deklarerer state variabler med en tom "string", setFirstname osv. er en funktion som kan bruges til at ændre state
-//   const [firstname, setFirstname] = useState('');
-//   const [lastname, setLastname] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [phone, setPhone] = useState('');
-//   const [company, setCompany] = useState('');
-//   const [position, setPosition] = useState('');
   const [touchedContact, setTouchedContact] = useState(false);
-
-//Funktioner som holder øje med ændringerer i value attribut i input felt
-  // const handleFirstnameChange = (e) => {
-  //   setFirstname(e.target.value);
-  // };
-  // const handleLastnameChange = (e) => {
-  //   setLastname(e.target.value);
-  // };
-  // const handleEmailChange = (e) => {
-  //   setEmail(e.target.value);
-  // };
-  // const handlePhoneChange = (e) => {
-  //   setPhone(e.target.value);
-  // };
-  // const handleCompanyChange = (e) => {
-  //   setCompany(e.target.value);
-  // };
-  // const handlePositionChange = (e) => {
-  //   setPosition(e.target.value);
-  // };
-
 
   //funktion til at tilføje ny kontakt
   const handleAddContactClick = () =>{
@@ -72,8 +46,6 @@ export default function Opretkontakt({ isOpen, setIsOpen, setContacts, contacts}
 
       //Funktion til at checke om input felterne er fyldt ud
       let isValid = formValues.firstname.trim() !== '';
-
-  
 
 
 //Funktion som håndterer lukning af modal på click.
