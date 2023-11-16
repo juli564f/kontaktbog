@@ -32,7 +32,7 @@ function App () {
     const [contacts, setContacts] = useState(contactsDummyData)
 //setIOpen med start værdi på false.
     const [isOpen, setIsOpen] = useState(false);
-
+ 
     
 
     return (
@@ -53,7 +53,8 @@ function App () {
                                 email={contactObj.email} 
                                 phone={contactObj.email} 
                                 company={contactObj.company} 
-                                position={contactObj.position} />
+                                position={contactObj.position}
+                                setContacts={setContacts}  />
                             ))};
                     </div>
                 </main>
